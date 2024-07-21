@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+
+
+      /* MOBILE */
+      @media only screen and (min-width: 300px){
+      h1{
+      padding-top: 60px;
+      font-size: 3.5em;
+      opacity: 10%;
+      }
+      .h1-head{
+        letter-spacing: 1px;
+        transition: 1s;
+        letter-spacing: 2px;
+
+        position: center;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1-head:hover{
+        color: rgb(255, 255, 255);
+        opacity: 5%;
+        transition: 1s;
+        letter-spacing: 1px;
+    }
+      }
+
+      /* TABLET */
+      @media only screen and (min-width: 500px){
+      h1{
+      padding-top: 10px;
+      font-size: 6em;
+      opacity: 10%;
+      }
+      .h1-head{
+        letter-spacing: 1px;
+        transition: 1s;
+        letter-spacing: 2px;
+
+        position: center;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1-head:hover{
+        color: rgb(255, 255, 255);
+        opacity: 5%;
+        transition: 1s;
+        letter-spacing: 1px;
+    }
+      }
+
+      /* DESKTOP */
+      @media only screen and (min-width: 720px){
+      h1{
+      padding-top: 0px;
+      font-size: 15em;
+      /* padding-top: -480px; */
+      opacity: 10%;
+      }
+      .h1-head{
+        letter-spacing: 1px;
+        transition: 1s;
+        letter-spacing: 2px;
+
+        position: center;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1-head:hover{
+        color: rgb(255, 255, 255);
+        opacity: 5%;
+        transition: 1s;
+        letter-spacing: 1px;
+    }
+      }
+
+   * body{
+          font-family: Arial, Helvetica, sans-serif;
+          transition: 2s;
+          background-image: url("img/George.jpg");
+          padding-bottom: 50px;
+
+      }
+
+      /*  */
+      /*  */
+      /* DARK MODE */
+
+      .dark-mode {
+      background-color: black;
+      background-image: url("img/George(dark).jpg");
+      color: white;
+      transition: 3s;}
+
+      /*  */
+            
+    .darkmode-btn{
+        padding: 5px;
+        border-radius: 10px;
+        color:black;
+        box-shadow: inset;
+    }
+    .darkmode-btn:hover{
+        border-radius: 10px;
+        color:white;
+        background-color: black;
+        box-shadow: inset;
+    }
+      /*  */
+      /*  */
+
+        .topnav{
+            overflow: hidden;
+            background-color: black;
+            position: relative;
+            transition: 2s;
+            border-radius: 0px;
+            nav-up: auto;
+        }
+        .topnav:hover{
+            overflow: hidden;
+            /* background-color: rgb(34, 37, 39); */
+            background-color: rgb(0, 150, 250);
+            position: relative;
+            transition: 2s;
+            border-radius: 0px;
+        }
+
+        .topnav #myLinks{
+            display: none;
+        }
+        .topnav #myLinks:hover{
+            display: none;
+            background-color:rgb(0, 150, 250);
+            transition: 2s;
+        }
+
+        .topnav a{
+            color: white;
+            padding: 20px 40px;
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            
+        }
+        .topnav a.icon:hover{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            transition: 2s;
+
+            /* box-shadow: inset 2px 16px 16px 16px rgb(255, 0, 0),
+            inset -8px -8px 12px 0 rgb(255, 0, 0); */
+
+            border-radius: 0px;
+            
+        }
+
+        .menu-links{
+          transition: 1s;
+        }
+        
+        .menu-links:hover{
+
+            background-color:  rgb(0, 108, 250);
+            color: rgb(0, 150, 250);
+            font-weight: bold;
+        }
+        .fa fa-bars{
+            color: rgb(0, 0, 0);
+        }
+
+        /*  */
+        /*  */
+        .home-menu{
+          color: white;
+          background-color: aqua;
+        }
+
+        .top-logo-menu{
+          color:white; 
+          font-size: 25px;
+          padding: 80px;
+          font-weight: bold;
+        }
+
+        /*  */
+        /*  */
+        /* IMAGES */
+
+        .George-img{
+        transition: 1s;
+        padding: 1px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        border: 50px;
+        border-color: aqua;
+        border-width: 20px;
+        border-radius: 20px;
+      
+        }
+        .George-img:hover{
+        opacity: 100%;
+        scroll-behavior: smooth;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        
+        /* background-image: url("img/G+L.png"); */
+        transition: 1s;
+        }
+
+
+
+        /* COLORS */
+        /* rgb(0, 150, 250) blue shade */
+        /* hover - background-color:  rgb(0, 108, 250); */
+/*  */
+/*  */
+/*  */
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+</style>
+
+<body onmousedown="return false" onselectstart="return false">
+
+  <div >
+      <!--  Top nav menu -->
+      <div class="topnav">
+            <a href="#" class="top-logo-menu"><div>
+           <!-- <h2 class="darkmode-btn" onclick="darkMode()"> dark mode</h2> -->
+           <img class="darkmode-btn" onclick="darkMode()" src="img/logo(w).png"; width="80px">
+       </div>
+      </a>
+          <div id="myLinks">
+
+              <a href="gallery.html" class="menu-links">GALLERY</a>
+              <a href="mercedes.html" class="menu-links">MERCEDES</a>
+              <a href="partnership.html" class="menu-links">PARTNERSHIP</a>
+              <a href="events.html" class="menu-links">EVENTS</a>
+              <a href="about.html" class="menu-links">ABOUT</a>
+          </div>
+
+          <div class="home-menu">
+            <a href="index.html" class="menu-links">HOME</a>
+        </div>
+
+
+          <a href = "javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+
+  
+      <div style="padding-left:10px">
+
+          <div class="container">
+              <h1 class="h1-head">George Russell</h1>
+
+              <div>
+                <p>Hello, my name is George. I am a F1 race driver and I race for the Mercedes Benz team.</p>
+
+              <img class="George-img" src="img/a-star-is-born-george-russell.jpg"; width="35%">
+              
+              <p>Racing is my passion and so is winning Trophies!</p>
+            </div>
+
+            <div>
+              <img class="George-img" src="img/G+L.png"; width="100%">
+
+            </div>
+          </div> 
+      </div>
+
+  </div>
+</div>
+
+<div>
+  <p class="h1-head">G.R.63</p>
+  <p class="h1-head"><b>www.elvndot.com</b></p>
+  </div>
+
+<!--  -->
+
+
+    <!-- JS -->
+    <!--  -->
+  <script>
+    function myFunction(){
+        var x = 
+        document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        }
+            else{
+                x.style.display = "block";
+            }
+        }
+  </script>
+
+    <!-- DARK MODE -->
+    <!--  -->
+    <script>
+    function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+
+
+
+
+</body>
+</html>
